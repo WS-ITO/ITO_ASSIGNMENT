@@ -1,0 +1,17 @@
+target/
+*.class
+*.iml
+.idea/
+.settings/
+.classpath
+.project
+
+# 정답 파일 — GitHub 에 업로드하지 않음
+src/main/java/com/ito/order/service/OrderServiceImpl.java
+
+# 테스트 생성 파일
+data/test_orders.txt
+data/orders.txt
+# 대량 테스트 입력 (@BeforeAll 이 실행 시마다 자동 생성 — 커밋 불필요)
+data/input/orders_5_bulk.txt
+.claude/
